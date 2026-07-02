@@ -1,0 +1,1709 @@
+// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/backup_plan
+// generated from terraform resource schema
+
+import { Construct } from 'constructs';
+import * as cdktn from 'cdktn';
+
+// Configuration
+
+export interface BackupPlanConfig extends cdktn.TerraformMetaArguments {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/backup_plan#id BackupPlan#id}
+  *
+  * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
+  * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
+  */
+  readonly id?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/backup_plan#name BackupPlan#name}
+  */
+  readonly name: string;
+  /**
+  * Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/backup_plan#region BackupPlan#region}
+  */
+  readonly region?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/backup_plan#tags BackupPlan#tags}
+  */
+  readonly tags?: { [key: string]: string };
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/backup_plan#tags_all BackupPlan#tags_all}
+  */
+  readonly tagsAll?: { [key: string]: string };
+  /**
+  * advanced_backup_setting block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/backup_plan#advanced_backup_setting BackupPlan#advanced_backup_setting}
+  */
+  readonly advancedBackupSetting?: BackupPlanAdvancedBackupSetting[] | cdktn.IResolvable;
+  /**
+  * rule block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/backup_plan#rule BackupPlan#rule}
+  */
+  readonly rule: BackupPlanRule[] | cdktn.IResolvable;
+  /**
+  * scan_setting block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/backup_plan#scan_setting BackupPlan#scan_setting}
+  */
+  readonly scanSetting?: BackupPlanScanSetting[] | cdktn.IResolvable;
+}
+export interface BackupPlanAdvancedBackupSetting {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/backup_plan#backup_options BackupPlan#backup_options}
+  */
+  readonly backupOptions: { [key: string]: string };
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/backup_plan#resource_type BackupPlan#resource_type}
+  */
+  readonly resourceType: string;
+}
+
+export function backupPlanAdvancedBackupSettingToTerraform(struct?: BackupPlanAdvancedBackupSetting | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    backup_options: cdktn.hashMapper(cdktn.stringToTerraform)(struct!.backupOptions),
+    resource_type: cdktn.stringToTerraform(struct!.resourceType),
+  }
+}
+
+
+export function backupPlanAdvancedBackupSettingToHclTerraform(struct?: BackupPlanAdvancedBackupSetting | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    backup_options: {
+      value: cdktn.hashMapperHcl(cdktn.stringToHclTerraform)(struct!.backupOptions),
+      isBlock: false,
+      type: "map",
+      storageClassType: "stringMap",
+    },
+    resource_type: {
+      value: cdktn.stringToHclTerraform(struct!.resourceType),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class BackupPlanAdvancedBackupSettingOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktn.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): BackupPlanAdvancedBackupSetting | cdktn.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._backupOptions !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.backupOptions = this._backupOptions;
+    }
+    if (this._resourceType !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.resourceType = this._resourceType;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: BackupPlanAdvancedBackupSetting | cdktn.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._backupOptions = undefined;
+      this._resourceType = undefined;
+    }
+    else if (cdktn.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._backupOptions = value.backupOptions;
+      this._resourceType = value.resourceType;
+    }
+  }
+
+  // backup_options - computed: false, optional: false, required: true
+  private _backupOptions?: { [key: string]: string }; 
+  public get backupOptions() {
+    return this.getStringMapAttribute('backup_options');
+  }
+  public set backupOptions(value: { [key: string]: string }) {
+    this._backupOptions = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get backupOptionsInput() {
+    return this._backupOptions;
+  }
+
+  // resource_type - computed: false, optional: false, required: true
+  private _resourceType?: string; 
+  public get resourceType() {
+    return this.getStringAttribute('resource_type');
+  }
+  public set resourceType(value: string) {
+    this._resourceType = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get resourceTypeInput() {
+    return this._resourceType;
+  }
+}
+
+export class BackupPlanAdvancedBackupSettingList extends cdktn.ComplexList {
+  public internalValue? : BackupPlanAdvancedBackupSetting[] | cdktn.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet);
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): BackupPlanAdvancedBackupSettingOutputReference {
+    return new BackupPlanAdvancedBackupSettingOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface BackupPlanRuleCopyActionLifecycle {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/backup_plan#cold_storage_after BackupPlan#cold_storage_after}
+  */
+  readonly coldStorageAfter?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/backup_plan#delete_after BackupPlan#delete_after}
+  */
+  readonly deleteAfter?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/backup_plan#opt_in_to_archive_for_supported_resources BackupPlan#opt_in_to_archive_for_supported_resources}
+  */
+  readonly optInToArchiveForSupportedResources?: boolean | cdktn.IResolvable;
+}
+
+export function backupPlanRuleCopyActionLifecycleToTerraform(struct?: BackupPlanRuleCopyActionLifecycleOutputReference | BackupPlanRuleCopyActionLifecycle): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    cold_storage_after: cdktn.numberToTerraform(struct!.coldStorageAfter),
+    delete_after: cdktn.numberToTerraform(struct!.deleteAfter),
+    opt_in_to_archive_for_supported_resources: cdktn.booleanToTerraform(struct!.optInToArchiveForSupportedResources),
+  }
+}
+
+
+export function backupPlanRuleCopyActionLifecycleToHclTerraform(struct?: BackupPlanRuleCopyActionLifecycleOutputReference | BackupPlanRuleCopyActionLifecycle): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    cold_storage_after: {
+      value: cdktn.numberToHclTerraform(struct!.coldStorageAfter),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    delete_after: {
+      value: cdktn.numberToHclTerraform(struct!.deleteAfter),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    opt_in_to_archive_for_supported_resources: {
+      value: cdktn.booleanToHclTerraform(struct!.optInToArchiveForSupportedResources),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class BackupPlanRuleCopyActionLifecycleOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): BackupPlanRuleCopyActionLifecycle | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._coldStorageAfter !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.coldStorageAfter = this._coldStorageAfter;
+    }
+    if (this._deleteAfter !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.deleteAfter = this._deleteAfter;
+    }
+    if (this._optInToArchiveForSupportedResources !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.optInToArchiveForSupportedResources = this._optInToArchiveForSupportedResources;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: BackupPlanRuleCopyActionLifecycle | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._coldStorageAfter = undefined;
+      this._deleteAfter = undefined;
+      this._optInToArchiveForSupportedResources = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._coldStorageAfter = value.coldStorageAfter;
+      this._deleteAfter = value.deleteAfter;
+      this._optInToArchiveForSupportedResources = value.optInToArchiveForSupportedResources;
+    }
+  }
+
+  // cold_storage_after - computed: false, optional: true, required: false
+  private _coldStorageAfter?: number; 
+  public get coldStorageAfter() {
+    return this.getNumberAttribute('cold_storage_after');
+  }
+  public set coldStorageAfter(value: number) {
+    this._coldStorageAfter = value;
+  }
+  public resetColdStorageAfter() {
+    this._coldStorageAfter = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get coldStorageAfterInput() {
+    return this._coldStorageAfter;
+  }
+
+  // delete_after - computed: false, optional: true, required: false
+  private _deleteAfter?: number; 
+  public get deleteAfter() {
+    return this.getNumberAttribute('delete_after');
+  }
+  public set deleteAfter(value: number) {
+    this._deleteAfter = value;
+  }
+  public resetDeleteAfter() {
+    this._deleteAfter = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get deleteAfterInput() {
+    return this._deleteAfter;
+  }
+
+  // opt_in_to_archive_for_supported_resources - computed: true, optional: true, required: false
+  private _optInToArchiveForSupportedResources?: boolean | cdktn.IResolvable; 
+  public get optInToArchiveForSupportedResources() {
+    return this.getBooleanAttribute('opt_in_to_archive_for_supported_resources');
+  }
+  public set optInToArchiveForSupportedResources(value: boolean | cdktn.IResolvable) {
+    this._optInToArchiveForSupportedResources = value;
+  }
+  public resetOptInToArchiveForSupportedResources() {
+    this._optInToArchiveForSupportedResources = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get optInToArchiveForSupportedResourcesInput() {
+    return this._optInToArchiveForSupportedResources;
+  }
+}
+export interface BackupPlanRuleCopyAction {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/backup_plan#destination_vault_arn BackupPlan#destination_vault_arn}
+  */
+  readonly destinationVaultArn: string;
+  /**
+  * lifecycle block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/backup_plan#lifecycle BackupPlan#lifecycle}
+  */
+  readonly lifecycle?: BackupPlanRuleCopyActionLifecycle;
+}
+
+export function backupPlanRuleCopyActionToTerraform(struct?: BackupPlanRuleCopyAction | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    destination_vault_arn: cdktn.stringToTerraform(struct!.destinationVaultArn),
+    lifecycle: backupPlanRuleCopyActionLifecycleToTerraform(struct!.lifecycle),
+  }
+}
+
+
+export function backupPlanRuleCopyActionToHclTerraform(struct?: BackupPlanRuleCopyAction | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    destination_vault_arn: {
+      value: cdktn.stringToHclTerraform(struct!.destinationVaultArn),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    lifecycle: {
+      value: backupPlanRuleCopyActionLifecycleToHclTerraform(struct!.lifecycle),
+      isBlock: true,
+      type: "list",
+      storageClassType: "BackupPlanRuleCopyActionLifecycleList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class BackupPlanRuleCopyActionOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktn.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): BackupPlanRuleCopyAction | cdktn.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._destinationVaultArn !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.destinationVaultArn = this._destinationVaultArn;
+    }
+    if (this._lifecycle?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.lifecycle = this._lifecycle?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: BackupPlanRuleCopyAction | cdktn.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._destinationVaultArn = undefined;
+      this._lifecycle.internalValue = undefined;
+    }
+    else if (cdktn.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._destinationVaultArn = value.destinationVaultArn;
+      this._lifecycle.internalValue = value.lifecycle;
+    }
+  }
+
+  // destination_vault_arn - computed: false, optional: false, required: true
+  private _destinationVaultArn?: string; 
+  public get destinationVaultArn() {
+    return this.getStringAttribute('destination_vault_arn');
+  }
+  public set destinationVaultArn(value: string) {
+    this._destinationVaultArn = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get destinationVaultArnInput() {
+    return this._destinationVaultArn;
+  }
+
+  // lifecycle - computed: false, optional: true, required: false
+  private _lifecycle = new BackupPlanRuleCopyActionLifecycleOutputReference(this, "lifecycle");
+  public get lifecycle() {
+    return this._lifecycle;
+  }
+  public putLifecycle(value: BackupPlanRuleCopyActionLifecycle) {
+    this._lifecycle.internalValue = value;
+  }
+  public resetLifecycle() {
+    this._lifecycle.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get lifecycleInput() {
+    return this._lifecycle.internalValue;
+  }
+}
+
+export class BackupPlanRuleCopyActionList extends cdktn.ComplexList {
+  public internalValue? : BackupPlanRuleCopyAction[] | cdktn.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet);
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): BackupPlanRuleCopyActionOutputReference {
+    return new BackupPlanRuleCopyActionOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface BackupPlanRuleLifecycle {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/backup_plan#cold_storage_after BackupPlan#cold_storage_after}
+  */
+  readonly coldStorageAfter?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/backup_plan#delete_after BackupPlan#delete_after}
+  */
+  readonly deleteAfter?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/backup_plan#opt_in_to_archive_for_supported_resources BackupPlan#opt_in_to_archive_for_supported_resources}
+  */
+  readonly optInToArchiveForSupportedResources?: boolean | cdktn.IResolvable;
+}
+
+export function backupPlanRuleLifecycleToTerraform(struct?: BackupPlanRuleLifecycleOutputReference | BackupPlanRuleLifecycle): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    cold_storage_after: cdktn.numberToTerraform(struct!.coldStorageAfter),
+    delete_after: cdktn.numberToTerraform(struct!.deleteAfter),
+    opt_in_to_archive_for_supported_resources: cdktn.booleanToTerraform(struct!.optInToArchiveForSupportedResources),
+  }
+}
+
+
+export function backupPlanRuleLifecycleToHclTerraform(struct?: BackupPlanRuleLifecycleOutputReference | BackupPlanRuleLifecycle): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    cold_storage_after: {
+      value: cdktn.numberToHclTerraform(struct!.coldStorageAfter),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    delete_after: {
+      value: cdktn.numberToHclTerraform(struct!.deleteAfter),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    opt_in_to_archive_for_supported_resources: {
+      value: cdktn.booleanToHclTerraform(struct!.optInToArchiveForSupportedResources),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class BackupPlanRuleLifecycleOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): BackupPlanRuleLifecycle | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._coldStorageAfter !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.coldStorageAfter = this._coldStorageAfter;
+    }
+    if (this._deleteAfter !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.deleteAfter = this._deleteAfter;
+    }
+    if (this._optInToArchiveForSupportedResources !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.optInToArchiveForSupportedResources = this._optInToArchiveForSupportedResources;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: BackupPlanRuleLifecycle | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._coldStorageAfter = undefined;
+      this._deleteAfter = undefined;
+      this._optInToArchiveForSupportedResources = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._coldStorageAfter = value.coldStorageAfter;
+      this._deleteAfter = value.deleteAfter;
+      this._optInToArchiveForSupportedResources = value.optInToArchiveForSupportedResources;
+    }
+  }
+
+  // cold_storage_after - computed: false, optional: true, required: false
+  private _coldStorageAfter?: number; 
+  public get coldStorageAfter() {
+    return this.getNumberAttribute('cold_storage_after');
+  }
+  public set coldStorageAfter(value: number) {
+    this._coldStorageAfter = value;
+  }
+  public resetColdStorageAfter() {
+    this._coldStorageAfter = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get coldStorageAfterInput() {
+    return this._coldStorageAfter;
+  }
+
+  // delete_after - computed: false, optional: true, required: false
+  private _deleteAfter?: number; 
+  public get deleteAfter() {
+    return this.getNumberAttribute('delete_after');
+  }
+  public set deleteAfter(value: number) {
+    this._deleteAfter = value;
+  }
+  public resetDeleteAfter() {
+    this._deleteAfter = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get deleteAfterInput() {
+    return this._deleteAfter;
+  }
+
+  // opt_in_to_archive_for_supported_resources - computed: true, optional: true, required: false
+  private _optInToArchiveForSupportedResources?: boolean | cdktn.IResolvable; 
+  public get optInToArchiveForSupportedResources() {
+    return this.getBooleanAttribute('opt_in_to_archive_for_supported_resources');
+  }
+  public set optInToArchiveForSupportedResources(value: boolean | cdktn.IResolvable) {
+    this._optInToArchiveForSupportedResources = value;
+  }
+  public resetOptInToArchiveForSupportedResources() {
+    this._optInToArchiveForSupportedResources = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get optInToArchiveForSupportedResourcesInput() {
+    return this._optInToArchiveForSupportedResources;
+  }
+}
+export interface BackupPlanRuleScanAction {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/backup_plan#malware_scanner BackupPlan#malware_scanner}
+  */
+  readonly malwareScanner: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/backup_plan#scan_mode BackupPlan#scan_mode}
+  */
+  readonly scanMode: string;
+}
+
+export function backupPlanRuleScanActionToTerraform(struct?: BackupPlanRuleScanAction | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    malware_scanner: cdktn.stringToTerraform(struct!.malwareScanner),
+    scan_mode: cdktn.stringToTerraform(struct!.scanMode),
+  }
+}
+
+
+export function backupPlanRuleScanActionToHclTerraform(struct?: BackupPlanRuleScanAction | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    malware_scanner: {
+      value: cdktn.stringToHclTerraform(struct!.malwareScanner),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    scan_mode: {
+      value: cdktn.stringToHclTerraform(struct!.scanMode),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class BackupPlanRuleScanActionOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktn.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): BackupPlanRuleScanAction | cdktn.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._malwareScanner !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.malwareScanner = this._malwareScanner;
+    }
+    if (this._scanMode !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.scanMode = this._scanMode;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: BackupPlanRuleScanAction | cdktn.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._malwareScanner = undefined;
+      this._scanMode = undefined;
+    }
+    else if (cdktn.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._malwareScanner = value.malwareScanner;
+      this._scanMode = value.scanMode;
+    }
+  }
+
+  // malware_scanner - computed: false, optional: false, required: true
+  private _malwareScanner?: string; 
+  public get malwareScanner() {
+    return this.getStringAttribute('malware_scanner');
+  }
+  public set malwareScanner(value: string) {
+    this._malwareScanner = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get malwareScannerInput() {
+    return this._malwareScanner;
+  }
+
+  // scan_mode - computed: false, optional: false, required: true
+  private _scanMode?: string; 
+  public get scanMode() {
+    return this.getStringAttribute('scan_mode');
+  }
+  public set scanMode(value: string) {
+    this._scanMode = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get scanModeInput() {
+    return this._scanMode;
+  }
+}
+
+export class BackupPlanRuleScanActionList extends cdktn.ComplexList {
+  public internalValue? : BackupPlanRuleScanAction[] | cdktn.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet);
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): BackupPlanRuleScanActionOutputReference {
+    return new BackupPlanRuleScanActionOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface BackupPlanRule {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/backup_plan#completion_window BackupPlan#completion_window}
+  */
+  readonly completionWindow?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/backup_plan#enable_continuous_backup BackupPlan#enable_continuous_backup}
+  */
+  readonly enableContinuousBackup?: boolean | cdktn.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/backup_plan#recovery_point_tags BackupPlan#recovery_point_tags}
+  */
+  readonly recoveryPointTags?: { [key: string]: string };
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/backup_plan#rule_name BackupPlan#rule_name}
+  */
+  readonly ruleName: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/backup_plan#schedule BackupPlan#schedule}
+  */
+  readonly schedule?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/backup_plan#schedule_expression_timezone BackupPlan#schedule_expression_timezone}
+  */
+  readonly scheduleExpressionTimezone?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/backup_plan#start_window BackupPlan#start_window}
+  */
+  readonly startWindow?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/backup_plan#target_logically_air_gapped_backup_vault_arn BackupPlan#target_logically_air_gapped_backup_vault_arn}
+  */
+  readonly targetLogicallyAirGappedBackupVaultArn?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/backup_plan#target_vault_name BackupPlan#target_vault_name}
+  */
+  readonly targetVaultName: string;
+  /**
+  * copy_action block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/backup_plan#copy_action BackupPlan#copy_action}
+  */
+  readonly copyAction?: BackupPlanRuleCopyAction[] | cdktn.IResolvable;
+  /**
+  * lifecycle block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/backup_plan#lifecycle BackupPlan#lifecycle}
+  */
+  readonly lifecycle?: BackupPlanRuleLifecycle;
+  /**
+  * scan_action block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/backup_plan#scan_action BackupPlan#scan_action}
+  */
+  readonly scanAction?: BackupPlanRuleScanAction[] | cdktn.IResolvable;
+}
+
+export function backupPlanRuleToTerraform(struct?: BackupPlanRule | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    completion_window: cdktn.numberToTerraform(struct!.completionWindow),
+    enable_continuous_backup: cdktn.booleanToTerraform(struct!.enableContinuousBackup),
+    recovery_point_tags: cdktn.hashMapper(cdktn.stringToTerraform)(struct!.recoveryPointTags),
+    rule_name: cdktn.stringToTerraform(struct!.ruleName),
+    schedule: cdktn.stringToTerraform(struct!.schedule),
+    schedule_expression_timezone: cdktn.stringToTerraform(struct!.scheduleExpressionTimezone),
+    start_window: cdktn.numberToTerraform(struct!.startWindow),
+    target_logically_air_gapped_backup_vault_arn: cdktn.stringToTerraform(struct!.targetLogicallyAirGappedBackupVaultArn),
+    target_vault_name: cdktn.stringToTerraform(struct!.targetVaultName),
+    copy_action: cdktn.listMapper(backupPlanRuleCopyActionToTerraform, true)(struct!.copyAction),
+    lifecycle: backupPlanRuleLifecycleToTerraform(struct!.lifecycle),
+    scan_action: cdktn.listMapper(backupPlanRuleScanActionToTerraform, true)(struct!.scanAction),
+  }
+}
+
+
+export function backupPlanRuleToHclTerraform(struct?: BackupPlanRule | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    completion_window: {
+      value: cdktn.numberToHclTerraform(struct!.completionWindow),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    enable_continuous_backup: {
+      value: cdktn.booleanToHclTerraform(struct!.enableContinuousBackup),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    recovery_point_tags: {
+      value: cdktn.hashMapperHcl(cdktn.stringToHclTerraform)(struct!.recoveryPointTags),
+      isBlock: false,
+      type: "map",
+      storageClassType: "stringMap",
+    },
+    rule_name: {
+      value: cdktn.stringToHclTerraform(struct!.ruleName),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    schedule: {
+      value: cdktn.stringToHclTerraform(struct!.schedule),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    schedule_expression_timezone: {
+      value: cdktn.stringToHclTerraform(struct!.scheduleExpressionTimezone),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    start_window: {
+      value: cdktn.numberToHclTerraform(struct!.startWindow),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    target_logically_air_gapped_backup_vault_arn: {
+      value: cdktn.stringToHclTerraform(struct!.targetLogicallyAirGappedBackupVaultArn),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    target_vault_name: {
+      value: cdktn.stringToHclTerraform(struct!.targetVaultName),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    copy_action: {
+      value: cdktn.listMapperHcl(backupPlanRuleCopyActionToHclTerraform, true)(struct!.copyAction),
+      isBlock: true,
+      type: "set",
+      storageClassType: "BackupPlanRuleCopyActionList",
+    },
+    lifecycle: {
+      value: backupPlanRuleLifecycleToHclTerraform(struct!.lifecycle),
+      isBlock: true,
+      type: "list",
+      storageClassType: "BackupPlanRuleLifecycleList",
+    },
+    scan_action: {
+      value: cdktn.listMapperHcl(backupPlanRuleScanActionToHclTerraform, true)(struct!.scanAction),
+      isBlock: true,
+      type: "set",
+      storageClassType: "BackupPlanRuleScanActionList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class BackupPlanRuleOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktn.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): BackupPlanRule | cdktn.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._completionWindow !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.completionWindow = this._completionWindow;
+    }
+    if (this._enableContinuousBackup !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.enableContinuousBackup = this._enableContinuousBackup;
+    }
+    if (this._recoveryPointTags !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.recoveryPointTags = this._recoveryPointTags;
+    }
+    if (this._ruleName !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.ruleName = this._ruleName;
+    }
+    if (this._schedule !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.schedule = this._schedule;
+    }
+    if (this._scheduleExpressionTimezone !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.scheduleExpressionTimezone = this._scheduleExpressionTimezone;
+    }
+    if (this._startWindow !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.startWindow = this._startWindow;
+    }
+    if (this._targetLogicallyAirGappedBackupVaultArn !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.targetLogicallyAirGappedBackupVaultArn = this._targetLogicallyAirGappedBackupVaultArn;
+    }
+    if (this._targetVaultName !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.targetVaultName = this._targetVaultName;
+    }
+    if (this._copyAction?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.copyAction = this._copyAction?.internalValue;
+    }
+    if (this._lifecycle?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.lifecycle = this._lifecycle?.internalValue;
+    }
+    if (this._scanAction?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.scanAction = this._scanAction?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: BackupPlanRule | cdktn.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._completionWindow = undefined;
+      this._enableContinuousBackup = undefined;
+      this._recoveryPointTags = undefined;
+      this._ruleName = undefined;
+      this._schedule = undefined;
+      this._scheduleExpressionTimezone = undefined;
+      this._startWindow = undefined;
+      this._targetLogicallyAirGappedBackupVaultArn = undefined;
+      this._targetVaultName = undefined;
+      this._copyAction.internalValue = undefined;
+      this._lifecycle.internalValue = undefined;
+      this._scanAction.internalValue = undefined;
+    }
+    else if (cdktn.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._completionWindow = value.completionWindow;
+      this._enableContinuousBackup = value.enableContinuousBackup;
+      this._recoveryPointTags = value.recoveryPointTags;
+      this._ruleName = value.ruleName;
+      this._schedule = value.schedule;
+      this._scheduleExpressionTimezone = value.scheduleExpressionTimezone;
+      this._startWindow = value.startWindow;
+      this._targetLogicallyAirGappedBackupVaultArn = value.targetLogicallyAirGappedBackupVaultArn;
+      this._targetVaultName = value.targetVaultName;
+      this._copyAction.internalValue = value.copyAction;
+      this._lifecycle.internalValue = value.lifecycle;
+      this._scanAction.internalValue = value.scanAction;
+    }
+  }
+
+  // completion_window - computed: false, optional: true, required: false
+  private _completionWindow?: number; 
+  public get completionWindow() {
+    return this.getNumberAttribute('completion_window');
+  }
+  public set completionWindow(value: number) {
+    this._completionWindow = value;
+  }
+  public resetCompletionWindow() {
+    this._completionWindow = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get completionWindowInput() {
+    return this._completionWindow;
+  }
+
+  // enable_continuous_backup - computed: false, optional: true, required: false
+  private _enableContinuousBackup?: boolean | cdktn.IResolvable; 
+  public get enableContinuousBackup() {
+    return this.getBooleanAttribute('enable_continuous_backup');
+  }
+  public set enableContinuousBackup(value: boolean | cdktn.IResolvable) {
+    this._enableContinuousBackup = value;
+  }
+  public resetEnableContinuousBackup() {
+    this._enableContinuousBackup = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get enableContinuousBackupInput() {
+    return this._enableContinuousBackup;
+  }
+
+  // recovery_point_tags - computed: false, optional: true, required: false
+  private _recoveryPointTags?: { [key: string]: string }; 
+  public get recoveryPointTags() {
+    return this.getStringMapAttribute('recovery_point_tags');
+  }
+  public set recoveryPointTags(value: { [key: string]: string }) {
+    this._recoveryPointTags = value;
+  }
+  public resetRecoveryPointTags() {
+    this._recoveryPointTags = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get recoveryPointTagsInput() {
+    return this._recoveryPointTags;
+  }
+
+  // rule_name - computed: false, optional: false, required: true
+  private _ruleName?: string; 
+  public get ruleName() {
+    return this.getStringAttribute('rule_name');
+  }
+  public set ruleName(value: string) {
+    this._ruleName = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get ruleNameInput() {
+    return this._ruleName;
+  }
+
+  // schedule - computed: false, optional: true, required: false
+  private _schedule?: string; 
+  public get schedule() {
+    return this.getStringAttribute('schedule');
+  }
+  public set schedule(value: string) {
+    this._schedule = value;
+  }
+  public resetSchedule() {
+    this._schedule = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get scheduleInput() {
+    return this._schedule;
+  }
+
+  // schedule_expression_timezone - computed: false, optional: true, required: false
+  private _scheduleExpressionTimezone?: string; 
+  public get scheduleExpressionTimezone() {
+    return this.getStringAttribute('schedule_expression_timezone');
+  }
+  public set scheduleExpressionTimezone(value: string) {
+    this._scheduleExpressionTimezone = value;
+  }
+  public resetScheduleExpressionTimezone() {
+    this._scheduleExpressionTimezone = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get scheduleExpressionTimezoneInput() {
+    return this._scheduleExpressionTimezone;
+  }
+
+  // start_window - computed: false, optional: true, required: false
+  private _startWindow?: number; 
+  public get startWindow() {
+    return this.getNumberAttribute('start_window');
+  }
+  public set startWindow(value: number) {
+    this._startWindow = value;
+  }
+  public resetStartWindow() {
+    this._startWindow = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get startWindowInput() {
+    return this._startWindow;
+  }
+
+  // target_logically_air_gapped_backup_vault_arn - computed: false, optional: true, required: false
+  private _targetLogicallyAirGappedBackupVaultArn?: string; 
+  public get targetLogicallyAirGappedBackupVaultArn() {
+    return this.getStringAttribute('target_logically_air_gapped_backup_vault_arn');
+  }
+  public set targetLogicallyAirGappedBackupVaultArn(value: string) {
+    this._targetLogicallyAirGappedBackupVaultArn = value;
+  }
+  public resetTargetLogicallyAirGappedBackupVaultArn() {
+    this._targetLogicallyAirGappedBackupVaultArn = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get targetLogicallyAirGappedBackupVaultArnInput() {
+    return this._targetLogicallyAirGappedBackupVaultArn;
+  }
+
+  // target_vault_name - computed: false, optional: false, required: true
+  private _targetVaultName?: string; 
+  public get targetVaultName() {
+    return this.getStringAttribute('target_vault_name');
+  }
+  public set targetVaultName(value: string) {
+    this._targetVaultName = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get targetVaultNameInput() {
+    return this._targetVaultName;
+  }
+
+  // copy_action - computed: false, optional: true, required: false
+  private _copyAction = new BackupPlanRuleCopyActionList(this, "copy_action", true);
+  public get copyAction() {
+    return this._copyAction;
+  }
+  public putCopyAction(value: BackupPlanRuleCopyAction[] | cdktn.IResolvable) {
+    this._copyAction.internalValue = value;
+  }
+  public resetCopyAction() {
+    this._copyAction.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get copyActionInput() {
+    return this._copyAction.internalValue;
+  }
+
+  // lifecycle - computed: false, optional: true, required: false
+  private _lifecycle = new BackupPlanRuleLifecycleOutputReference(this, "lifecycle");
+  public get lifecycle() {
+    return this._lifecycle;
+  }
+  public putLifecycle(value: BackupPlanRuleLifecycle) {
+    this._lifecycle.internalValue = value;
+  }
+  public resetLifecycle() {
+    this._lifecycle.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get lifecycleInput() {
+    return this._lifecycle.internalValue;
+  }
+
+  // scan_action - computed: false, optional: true, required: false
+  private _scanAction = new BackupPlanRuleScanActionList(this, "scan_action", true);
+  public get scanAction() {
+    return this._scanAction;
+  }
+  public putScanAction(value: BackupPlanRuleScanAction[] | cdktn.IResolvable) {
+    this._scanAction.internalValue = value;
+  }
+  public resetScanAction() {
+    this._scanAction.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get scanActionInput() {
+    return this._scanAction.internalValue;
+  }
+}
+
+export class BackupPlanRuleList extends cdktn.ComplexList {
+  public internalValue? : BackupPlanRule[] | cdktn.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet);
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): BackupPlanRuleOutputReference {
+    return new BackupPlanRuleOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface BackupPlanScanSetting {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/backup_plan#malware_scanner BackupPlan#malware_scanner}
+  */
+  readonly malwareScanner: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/backup_plan#resource_types BackupPlan#resource_types}
+  */
+  readonly resourceTypes: string[];
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/backup_plan#scanner_role_arn BackupPlan#scanner_role_arn}
+  */
+  readonly scannerRoleArn: string;
+}
+
+export function backupPlanScanSettingToTerraform(struct?: BackupPlanScanSetting | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    malware_scanner: cdktn.stringToTerraform(struct!.malwareScanner),
+    resource_types: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.resourceTypes),
+    scanner_role_arn: cdktn.stringToTerraform(struct!.scannerRoleArn),
+  }
+}
+
+
+export function backupPlanScanSettingToHclTerraform(struct?: BackupPlanScanSetting | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    malware_scanner: {
+      value: cdktn.stringToHclTerraform(struct!.malwareScanner),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    resource_types: {
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.resourceTypes),
+      isBlock: false,
+      type: "set",
+      storageClassType: "stringList",
+    },
+    scanner_role_arn: {
+      value: cdktn.stringToHclTerraform(struct!.scannerRoleArn),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class BackupPlanScanSettingOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktn.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): BackupPlanScanSetting | cdktn.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._malwareScanner !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.malwareScanner = this._malwareScanner;
+    }
+    if (this._resourceTypes !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.resourceTypes = this._resourceTypes;
+    }
+    if (this._scannerRoleArn !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.scannerRoleArn = this._scannerRoleArn;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: BackupPlanScanSetting | cdktn.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._malwareScanner = undefined;
+      this._resourceTypes = undefined;
+      this._scannerRoleArn = undefined;
+    }
+    else if (cdktn.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._malwareScanner = value.malwareScanner;
+      this._resourceTypes = value.resourceTypes;
+      this._scannerRoleArn = value.scannerRoleArn;
+    }
+  }
+
+  // malware_scanner - computed: false, optional: false, required: true
+  private _malwareScanner?: string; 
+  public get malwareScanner() {
+    return this.getStringAttribute('malware_scanner');
+  }
+  public set malwareScanner(value: string) {
+    this._malwareScanner = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get malwareScannerInput() {
+    return this._malwareScanner;
+  }
+
+  // resource_types - computed: false, optional: false, required: true
+  private _resourceTypes?: string[]; 
+  public get resourceTypes() {
+    return cdktn.Fn.tolist(this.getListAttribute('resource_types'));
+  }
+  public set resourceTypes(value: string[]) {
+    this._resourceTypes = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get resourceTypesInput() {
+    return this._resourceTypes;
+  }
+
+  // scanner_role_arn - computed: false, optional: false, required: true
+  private _scannerRoleArn?: string; 
+  public get scannerRoleArn() {
+    return this.getStringAttribute('scanner_role_arn');
+  }
+  public set scannerRoleArn(value: string) {
+    this._scannerRoleArn = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get scannerRoleArnInput() {
+    return this._scannerRoleArn;
+  }
+}
+
+export class BackupPlanScanSettingList extends cdktn.ComplexList {
+  public internalValue? : BackupPlanScanSetting[] | cdktn.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet);
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): BackupPlanScanSettingOutputReference {
+    return new BackupPlanScanSettingOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+
+/**
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/backup_plan aws_backup_plan}
+*/
+export class BackupPlan extends cdktn.TerraformResource {
+
+  // =================
+  // STATIC PROPERTIES
+  // =================
+  public static readonly tfResourceType = "aws_backup_plan";
+
+  // ==============
+  // STATIC Methods
+  // ==============
+  /**
+  * Generates CDKTN code for importing a BackupPlan resource upon running "cdktn plan <stack-name>"
+  * @param scope The scope in which to define this construct
+  * @param importToId The construct id used in the generated config for the BackupPlan to import
+  * @param importFromId The id of the existing BackupPlan that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/backup_plan#import import section} in the documentation of this resource for the id to use
+  * @param provider? Optional instance of the provider where the BackupPlan to import is found
+  */
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
+        return new cdktn.ImportableResource(scope, importToId, { terraformResourceType: "aws_backup_plan", importId: importFromId, provider });
+      }
+
+  // ===========
+  // INITIALIZER
+  // ===========
+
+  /**
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/backup_plan aws_backup_plan} Resource
+  *
+  * @param scope The scope in which to define this construct
+  * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
+  * @param options BackupPlanConfig
+  */
+  public constructor(scope: Construct, id: string, config: BackupPlanConfig) {
+    super(scope, id, {
+      terraformResourceType: 'aws_backup_plan',
+      terraformGeneratorMetadata: {
+        providerName: 'aws',
+        providerVersion: '6.53.0'
+      },
+      provider: config.provider,
+      dependsOn: config.dependsOn,
+      count: config.count,
+      lifecycle: config.lifecycle,
+      provisioners: config.provisioners,
+      connection: config.connection,
+      forEach: config.forEach
+    });
+    this._id = config.id;
+    this._name = config.name;
+    this._region = config.region;
+    this._tags = config.tags;
+    this._tagsAll = config.tagsAll;
+    this._advancedBackupSetting.internalValue = config.advancedBackupSetting;
+    this._rule.internalValue = config.rule;
+    this._scanSetting.internalValue = config.scanSetting;
+  }
+
+  // ==========
+  // ATTRIBUTES
+  // ==========
+
+  // arn - computed: true, optional: false, required: false
+  public get arn() {
+    return this.getStringAttribute('arn');
+  }
+
+  // id - computed: true, optional: true, required: false
+  private _id?: string; 
+  public get id() {
+    return this.getStringAttribute('id');
+  }
+  public set id(value: string) {
+    this._id = value;
+  }
+  public resetId() {
+    this._id = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get idInput() {
+    return this._id;
+  }
+
+  // name - computed: false, optional: false, required: true
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+
+  // region - computed: true, optional: true, required: false
+  private _region?: string; 
+  public get region() {
+    return this.getStringAttribute('region');
+  }
+  public set region(value: string) {
+    this._region = value;
+  }
+  public resetRegion() {
+    this._region = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get regionInput() {
+    return this._region;
+  }
+
+  // tags - computed: false, optional: true, required: false
+  private _tags?: { [key: string]: string }; 
+  public get tags() {
+    return this.getStringMapAttribute('tags');
+  }
+  public set tags(value: { [key: string]: string }) {
+    this._tags = value;
+  }
+  public resetTags() {
+    this._tags = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tagsInput() {
+    return this._tags;
+  }
+
+  // tags_all - computed: true, optional: true, required: false
+  private _tagsAll?: { [key: string]: string }; 
+  public get tagsAll() {
+    return this.getStringMapAttribute('tags_all');
+  }
+  public set tagsAll(value: { [key: string]: string }) {
+    this._tagsAll = value;
+  }
+  public resetTagsAll() {
+    this._tagsAll = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tagsAllInput() {
+    return this._tagsAll;
+  }
+
+  // version - computed: true, optional: false, required: false
+  public get version() {
+    return this.getStringAttribute('version');
+  }
+
+  // advanced_backup_setting - computed: false, optional: true, required: false
+  private _advancedBackupSetting = new BackupPlanAdvancedBackupSettingList(this, "advanced_backup_setting", true);
+  public get advancedBackupSetting() {
+    return this._advancedBackupSetting;
+  }
+  public putAdvancedBackupSetting(value: BackupPlanAdvancedBackupSetting[] | cdktn.IResolvable) {
+    this._advancedBackupSetting.internalValue = value;
+  }
+  public resetAdvancedBackupSetting() {
+    this._advancedBackupSetting.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get advancedBackupSettingInput() {
+    return this._advancedBackupSetting.internalValue;
+  }
+
+  // rule - computed: false, optional: false, required: true
+  private _rule = new BackupPlanRuleList(this, "rule", true);
+  public get rule() {
+    return this._rule;
+  }
+  public putRule(value: BackupPlanRule[] | cdktn.IResolvable) {
+    this._rule.internalValue = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get ruleInput() {
+    return this._rule.internalValue;
+  }
+
+  // scan_setting - computed: false, optional: true, required: false
+  private _scanSetting = new BackupPlanScanSettingList(this, "scan_setting", true);
+  public get scanSetting() {
+    return this._scanSetting;
+  }
+  public putScanSetting(value: BackupPlanScanSetting[] | cdktn.IResolvable) {
+    this._scanSetting.internalValue = value;
+  }
+  public resetScanSetting() {
+    this._scanSetting.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get scanSettingInput() {
+    return this._scanSetting.internalValue;
+  }
+
+  // =========
+  // SYNTHESIS
+  // =========
+
+  protected synthesizeAttributes(): { [name: string]: any } {
+    return {
+      id: cdktn.stringToTerraform(this._id),
+      name: cdktn.stringToTerraform(this._name),
+      region: cdktn.stringToTerraform(this._region),
+      tags: cdktn.hashMapper(cdktn.stringToTerraform)(this._tags),
+      tags_all: cdktn.hashMapper(cdktn.stringToTerraform)(this._tagsAll),
+      advanced_backup_setting: cdktn.listMapper(backupPlanAdvancedBackupSettingToTerraform, true)(this._advancedBackupSetting.internalValue),
+      rule: cdktn.listMapper(backupPlanRuleToTerraform, true)(this._rule.internalValue),
+      scan_setting: cdktn.listMapper(backupPlanScanSettingToTerraform, true)(this._scanSetting.internalValue),
+    };
+  }
+
+  protected synthesizeHclAttributes(): { [name: string]: any } {
+    const attrs = {
+      id: {
+        value: cdktn.stringToHclTerraform(this._id),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      name: {
+        value: cdktn.stringToHclTerraform(this._name),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      region: {
+        value: cdktn.stringToHclTerraform(this._region),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      tags: {
+        value: cdktn.hashMapperHcl(cdktn.stringToHclTerraform)(this._tags),
+        isBlock: false,
+        type: "map",
+        storageClassType: "stringMap",
+      },
+      tags_all: {
+        value: cdktn.hashMapperHcl(cdktn.stringToHclTerraform)(this._tagsAll),
+        isBlock: false,
+        type: "map",
+        storageClassType: "stringMap",
+      },
+      advanced_backup_setting: {
+        value: cdktn.listMapperHcl(backupPlanAdvancedBackupSettingToHclTerraform, true)(this._advancedBackupSetting.internalValue),
+        isBlock: true,
+        type: "set",
+        storageClassType: "BackupPlanAdvancedBackupSettingList",
+      },
+      rule: {
+        value: cdktn.listMapperHcl(backupPlanRuleToHclTerraform, true)(this._rule.internalValue),
+        isBlock: true,
+        type: "set",
+        storageClassType: "BackupPlanRuleList",
+      },
+      scan_setting: {
+        value: cdktn.listMapperHcl(backupPlanScanSettingToHclTerraform, true)(this._scanSetting.internalValue),
+        isBlock: true,
+        type: "set",
+        storageClassType: "BackupPlanScanSettingList",
+      },
+    };
+
+    // remove undefined attributes
+    return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined ))
+  }
+}

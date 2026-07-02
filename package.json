@@ -1,0 +1,33 @@
+{
+  "name": "cdktn-provider-features-demo",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Demo scenarios for CDK Terrain PR #296 provider plugin-protocol feature bindings generated from current Terraform/OpenTofu schemas.",
+  "license": "MIT",
+  "type": "commonjs",
+  "scripts": {
+    "use:prhead": "node scripts/use-prhead-cdktn.js",
+    "schema:aws": "bash scripts/capture-aws-schema.sh",
+    "inspect:schema": "node scripts/inspect-aws-schema.js schema/aws-provider-schema.json",
+    "assert:prhead-deps": "node scripts/assert-prhead-deps.js",
+    "assert:generated-features": "node scripts/assert-generated-features.js schema/aws-provider-schema.json",
+    "generate:aws": "node scripts/cdktn.js get --language typescript --output .gen --force",
+    "synth:functions-ephemeral": "cd examples/functions-ephemeral && node ../../scripts/cdktn.js synth",
+    "synth:functions-only": "cd examples/functions-only && node ../../scripts/cdktn.js synth",
+    "plan:functions-ephemeral": "cd examples/functions-ephemeral/cdktf.out/stacks/functions-ephemeral && ${TERRAFORM_BINARY_NAME:-terraform} init -input=false && ${TERRAFORM_BINARY_NAME:-terraform} plan -input=false -refresh=false",
+    "plan:functions-only": "cd examples/functions-only/cdktf.out/stacks/functions-only && ${TERRAFORM_BINARY_NAME:-terraform} init -input=false && ${TERRAFORM_BINARY_NAME:-terraform} plan -input=false -refresh=false",
+    "synth:all": "pnpm run synth:functions-only && pnpm run synth:functions-ephemeral",
+    "plan:all": "pnpm run plan:functions-only && pnpm run plan:functions-ephemeral",
+    "check": "pnpm run generate:aws && pnpm run synth:all"
+  },
+  "dependencies": {
+    "cdktn": "file:/data/repos/hermes-pr-reviewer/worktrees/cdk-terrain/pr-296/packages/cdktn",
+    "constructs": "10.6.0"
+  },
+  "devDependencies": {
+    "@types/node": "20.19.1",
+    "ts-node": "10.9.2",
+    "typescript": "5.4.5"
+  },
+  "packageManager": "pnpm@11.5.2"
+}

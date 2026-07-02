@@ -1,0 +1,12 @@
+{
+  "cdktf": "0.0.0",
+  "providers": {},
+  "targetVersions": {
+    "terraform": ">=1.15.0",
+    "opentofu": ">=1.11.0"
+  },
+  "cli": {
+    "name": "terraform",
+    "version": "1.15.7"
+  }
+}
