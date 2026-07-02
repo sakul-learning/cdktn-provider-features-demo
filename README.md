@@ -61,6 +61,18 @@ Each subdirectory under `examples/` has its own `cdktf.json`.
 - `examples/functions-ephemeral`: uses AWS provider-defined functions in outputs, plus an AWS ephemeral resource reference through `Fn.ephemeralasnull(...)`. It avoids creating infrastructure and is designed for `terraform plan -refresh=false`.
 - `examples/functions-only`: focuses on provider-defined function bindings without configuring the provider. This is a smaller repro if function token synthesis regresses.
 
+## UX notes discovered while making the demo
+
+These are intentionally documented because they are feedback on how the new generated provider-function and ephemeral-resource bindings feel when used in a real app.
+
+- The first draft imported the AWS provider barrel (`./.gen/providers/aws`). That pulled in thousands of generated AWS classes and hit the Node/TypeScript OOM path during synth. The examples now import the minimal generated modules directly instead:
+  - `./.gen/providers/aws/provider`
+  - `./.gen/providers/aws/provider-functions`
+  - `./.gen/providers/aws/ephemeral-aws-secretsmanager-random-password`
+- After switching away from the barrel import, the examples also had to replace the remaining namespace-style references (`provider.*`, `providerFunctions.*`, and `ephemeral...*`) with direct class references such as `AwsProvider`, `AwsProviderFunctions`, and `EphemeralAwsSecretsmanagerRandomPassword`.
+- The ephemeral output uses `Fn.ephemeralasnull(generatedPassword.randomPassword)` and marks the output `sensitive: true`. Without the helper, Terraform/OpenTofu reject using an ephemeral value in a non-ephemeral context; without `sensitive`, the output still fails because the value is derived from secret ephemeral data.
+- The examples intentionally do **not** call `AwsProviderFunctions.userAgent(...)` inside `AwsProvider` configuration. That first seemed like a natural provider-function smoke test, but OpenTofu treated it as a provider self-reference during provider configuration evaluation. The incorrect assumption was that provider-defined functions are just pure string helpers that can safely be used while configuring the same provider. In practice, the generated call is still namespaced as a provider function (`provider::aws::user_agent`), so using it inside the `aws` provider block asks Terraform/OpenTofu to evaluate an AWS-provider function while constructing/configuring that same AWS provider. OpenTofu rejected that cycle. The demo therefore exercises provider functions in outputs, after provider configuration exists, and keeps provider configuration static.
+
 ## Current verification results
 
 Against cdk-terrain PR #296 head `78299b4b9ece16c45ab26a0cd28dec08e8ba57e9`:
@@ -71,6 +83,16 @@ Against cdk-terrain PR #296 head `78299b4b9ece16c45ab26a0cd28dec08e8ba57e9`:
   - No first-class generated directories/classes were emitted for list resources, provider actions, or resource identity schemas; keep the schema counts visible so this gap is easy to see on future PR heads.
 - OpenTofu `1.12.3`: using the Terraform-generated bindings, `assert:prhead-deps`, `assert:generated-features`, `tsc --noEmit`, `synth:all`, and `plan:all` passed.
   - A separate OpenTofu schema probe had provider functions, ephemeral resources, and resource identities, but reported `list_resource_schemas: 0` and `action_schemas: 0`.
+
+## Current blockers / gaps to feed back to PR #296
+
+These did not block this demo from synthesizing or planning, but they are worth feeding back before the PR leaves draft:
+
+- `targetVersions` shape validation exists in `parseConfig`, but the `cdktn get` path uses `CdktfConfig.read()` and the raw `targetVersions` getter, so it appears to bypass that validator.
+- Generated ephemeral resources currently expose `TerraformResourceLifecycle`, the full managed-resource lifecycle surface. Terraform ephemeral blocks only accept lifecycle `precondition` / `postcondition`, so the public type should probably be narrowed for `TerraformEphemeralMetaArguments`.
+- Write-only feature usage registration only covers top-level generated managed-resource attributes. Nested write-only attributes can be present in provider schemas, but constructor-time registration only iterates top-level assignable attributes.
+- Write-only feature usage registration is also skipped for generated ephemeral resources. That may be okay if no provider combines ephemeral resources with write-only attributes today, but the generalized protocol support should either handle it or explicitly document/filter why the combination cannot occur.
+- Terraform 1.15.7 exposes AWS provider list resources, provider actions, and resource identities, but PR #296 does not yet emit first-class generated bindings for those schema sections.
 
 One portability note: this demo's `package.json` intentionally points `cdktn` at the local PR-head worktree (`file:/data/repos/hermes-pr-reviewer/worktrees/cdk-terrain/pr-296/packages/cdktn`) for the recorded run. When re-running elsewhere, edit that path or run with an equivalent checkout path before `pnpm install`; `scripts/cdktn.js` also honors `CDKTN_REPO` for the CLI bundle.
 
