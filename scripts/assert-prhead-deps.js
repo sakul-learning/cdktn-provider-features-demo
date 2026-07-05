@@ -2,7 +2,7 @@
 const fs = require('node:fs');
 const path = require('node:path');
 
-const repo = path.resolve(process.env.CDKTN_REPO || '/data/repos/hermes-pr-reviewer/worktrees/cdk-terrain/pr-296');
+const repo = path.resolve(process.env.CDKTN_REPO || '/Users/vincentdesmet/cdktn/cdk-terrain');
 const expectedCdktn = path.resolve(repo, 'packages/cdktn');
 const lockPath = path.join(process.cwd(), 'pnpm-lock.yaml');
 const lock = fs.readFileSync(lockPath, 'utf8');

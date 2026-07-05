@@ -20,7 +20,12 @@ class AwsFunctionsAndEphemeralStack extends TerraformStack {
     new LocalBackend(this, { path: "terraform.tfstate" });
 
     const region = process.env.AWS_REGION || process.env.AWS_DEFAULT_REGION || "us-east-1";
-    const profile = process.env.AWS_PROFILE || "tcons-hermes";
+    // Only force a named profile when no direct credential env vars are present.
+    // Setting `profile` alongside AWS_ACCESS_KEY_ID/AWS_SECRET_ACCESS_KEY (e.g. from
+    // `aws-vault exec ... --`) makes the AWS Go SDK resolve credentials from that
+    // profile's ~/.aws/config block instead of the injected env credentials, which
+    // fails when the profile has no static credentials of its own.
+    const profile = process.env.AWS_ACCESS_KEY_ID ? undefined : process.env.AWS_PROFILE || "tcons-hermes";
 
     new AwsProvider(this, "aws", {
       region,
@@ -45,6 +50,21 @@ class AwsFunctionsAndEphemeralStack extends TerraformStack {
         passwordLength: 24,
         excludePunctuation: true,
         requireEachIncludedType: true,
+        // Exercises TerraformEphemeralResourceLifecycle, which narrows the
+        // ephemeral lifecycle block to precondition/postcondition only -
+        // createBeforeDestroy/preventDestroy/ignoreChanges/replaceTriggeredBy
+        // don't apply to stateless ephemeral resources and are rejected at
+        // compile time. The postcondition checks a non-sensitive computed
+        // attribute; referencing the sensitive `random_password` attribute
+        // here would fail Terraform's sensitive-value-in-condition check.
+        lifecycle: {
+          postcondition: [
+            {
+              condition: "${self.password_length == 24}",
+              errorMessage: "expected Secrets Manager to honor the requested password length",
+            },
+          ],
+        },
       }
     );
 
@@ -55,6 +75,19 @@ class AwsFunctionsAndEphemeralStack extends TerraformStack {
     new TerraformOutput(this, "ephemeral_password_ref_as_null", {
       value: Fn.ephemeralasnull(generatedPassword.randomPassword),
       sensitive: true,
+    });
+
+    // Same provider_meta escape hatch as functions-only, but here it's verifiable end
+    // to end: this stack's ephemeral resource makes a real Secrets Manager API call, so
+    // the resulting User-Agent header can be inspected with TF_LOG=DEBUG.
+    this.addOverride("terraform.provider_meta.aws", {
+      user_agent: [
+        AwsProviderFunctions.userAgent(
+          "cdktn-provider-features-demo",
+          "0.1.0",
+          "cdktn-demo-verify-9f3a"
+        ),
+      ],
     });
   }
 }

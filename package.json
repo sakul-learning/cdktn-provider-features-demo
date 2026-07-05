@@ -14,14 +14,20 @@
     "generate:aws": "node scripts/cdktn.js get --language typescript --output .gen --force",
     "synth:functions-ephemeral": "cd examples/functions-ephemeral && node ../../scripts/cdktn.js synth",
     "synth:functions-only": "cd examples/functions-only && node ../../scripts/cdktn.js synth",
+    "synth:mixins-s3": "cd examples/mixins-s3 && node ../../scripts/cdktn.js synth",
+    "synth:mixins-data-recovery": "cd examples/mixins-data-recovery && node ../../scripts/cdktn.js synth",
+    "synth:mixins-aspect-instance": "cd examples/mixins-aspect-instance && node ../../scripts/cdktn.js synth",
     "plan:functions-ephemeral": "cd examples/functions-ephemeral/cdktf.out/stacks/functions-ephemeral && ${TERRAFORM_BINARY_NAME:-terraform} init -input=false && ${TERRAFORM_BINARY_NAME:-terraform} plan -input=false -refresh=false",
     "plan:functions-only": "cd examples/functions-only/cdktf.out/stacks/functions-only && ${TERRAFORM_BINARY_NAME:-terraform} init -input=false && ${TERRAFORM_BINARY_NAME:-terraform} plan -input=false -refresh=false",
-    "synth:all": "pnpm run synth:functions-only && pnpm run synth:functions-ephemeral",
-    "plan:all": "pnpm run plan:functions-only && pnpm run plan:functions-ephemeral",
+    "plan:mixins-s3": "cd examples/mixins-s3/cdktf.out/stacks/mixins-s3 && ${TERRAFORM_BINARY_NAME:-terraform} init -input=false && ${TERRAFORM_BINARY_NAME:-terraform} plan -input=false -refresh=false",
+    "plan:mixins-data-recovery": "cd examples/mixins-data-recovery/cdktf.out/stacks/mixins-data-recovery && ${TERRAFORM_BINARY_NAME:-terraform} init -input=false && ${TERRAFORM_BINARY_NAME:-terraform} plan -input=false -refresh=false",
+    "plan:mixins-aspect-instance": "cd examples/mixins-aspect-instance/cdktf.out/stacks/mixins-aspect-instance && ${TERRAFORM_BINARY_NAME:-terraform} init -input=false && ${TERRAFORM_BINARY_NAME:-terraform} plan -input=false -refresh=false",
+    "synth:all": "pnpm run synth:functions-only && pnpm run synth:functions-ephemeral && pnpm run synth:mixins-s3 && pnpm run synth:mixins-data-recovery && pnpm run synth:mixins-aspect-instance",
+    "plan:all": "pnpm run plan:functions-only && pnpm run plan:functions-ephemeral && pnpm run plan:mixins-s3 && pnpm run plan:mixins-data-recovery && pnpm run plan:mixins-aspect-instance",
     "check": "pnpm run generate:aws && pnpm run synth:all"
   },
   "dependencies": {
-    "cdktn": "file:/data/repos/hermes-pr-reviewer/worktrees/cdk-terrain/pr-296/packages/cdktn",
+    "cdktn": "file:/Users/vincentdesmet/cdktn/cdk-terrain/packages/cdktn",
     "constructs": "10.6.0"
   },
   "devDependencies": {
