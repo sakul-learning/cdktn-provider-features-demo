@@ -3,7 +3,7 @@ import { App, LocalBackend, TerraformOutput, TerraformStack, Testing } from "cdk
 import { AwsProvider } from "./.gen/providers/aws/provider";
 import { DataAwsRegion } from "./.gen/providers/aws/data-aws-region";
 import { AwsccProvider } from "./.gen/providers/awscc/provider";
-import { KinesisStream } from "./.gen/providers/awscc/kinesis-stream";
+import { KinesisStream, kinesisStreamStreamEncryptionToTerraform } from "./.gen/providers/awscc/kinesis-stream";
 import { CfncompatProvider } from "./.gen/providers/cfncompat/provider";
 import { CfncompatProviderFunctions } from "./.gen/providers/cfncompat/provider-functions";
 
@@ -69,13 +69,24 @@ class L2KinesisStreamStack extends TerraformStack {
       name: "cdktn-l2-port-demo-stream",
       shardCount: 1,
       // Fn.conditionIf(name, Aws.NO_VALUE, { EncryptionType: 'KMS', KeyId: 'alias/aws/kinesis' })
-      // The object literal here is a raw provider-function argument, not a
-      // typed struct assignment, so it renders with the Terraform schema's
-      // own (snake_case) attribute names rather than cdktn's camelCase.
+      // A provider-function argument is not a typed struct assignment, so it
+      // is never run through the resource's generated xxxToTerraform mapper
+      // the way a plain-literal `streamEncryption:` value would be -- the
+      // object below would otherwise need to be hand-written in the
+      // Terraform schema's own snake_case. Instead, call the generated
+      // kinesisStreamStreamEncryptionToTerraform(...) mapper explicitly: it
+      // takes the typed (camelCase) KinesisStreamStreamEncryption shape --
+      // catching typos/wrong-type args at compile time, unlike conditionIf's
+      // `any`-typed branches -- and produces the correctly-shaped snake_case
+      // value. This is the same pattern already required for Lazy producers
+      // returning a nested struct (see e.g. ~/tcons/base's distribution.ts/
+      // dns-zone.ts), for the same underlying reason: any value that arrives
+      // via a resolvable/token/produce() callback bypasses the synth-time
+      // attribute-collection mapper and must be pre-mapped by hand.
       streamEncryption: CfncompatProviderFunctions.conditionIf(
         isUnsupportedRegion,
         null,
-        { encryption_type: "KMS", key_id: "alias/aws/kinesis" },
+        kinesisStreamStreamEncryptionToTerraform({ encryptionType: "KMS", keyId: "alias/aws/kinesis" }),
       ),
     });
 
