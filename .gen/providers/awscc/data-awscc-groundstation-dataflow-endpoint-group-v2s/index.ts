@@ -1,0 +1,92 @@
+// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/data-sources/groundstation_dataflow_endpoint_group_v2s
+// generated from terraform resource schema
+
+import { Construct } from 'constructs';
+import * as cdktn from 'cdktn';
+
+// Configuration
+
+export interface DataAwsccGroundstationDataflowEndpointGroupV2SConfig extends cdktn.TerraformMetaArguments {
+}
+
+/**
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/data-sources/groundstation_dataflow_endpoint_group_v2s awscc_groundstation_dataflow_endpoint_group_v2s}
+*/
+export class DataAwsccGroundstationDataflowEndpointGroupV2S extends cdktn.TerraformDataSource {
+
+  // =================
+  // STATIC PROPERTIES
+  // =================
+  public static readonly tfResourceType = "awscc_groundstation_dataflow_endpoint_group_v2s";
+
+  // ==============
+  // STATIC Methods
+  // ==============
+  /**
+  * Generates CDKTN code for importing a DataAwsccGroundstationDataflowEndpointGroupV2S resource upon running "cdktn plan <stack-name>"
+  * @param scope The scope in which to define this construct
+  * @param importToId The construct id used in the generated config for the DataAwsccGroundstationDataflowEndpointGroupV2S to import
+  * @param importFromId The id of the existing DataAwsccGroundstationDataflowEndpointGroupV2S that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/data-sources/groundstation_dataflow_endpoint_group_v2s#import import section} in the documentation of this resource for the id to use
+  * @param provider? Optional instance of the provider where the DataAwsccGroundstationDataflowEndpointGroupV2S to import is found
+  */
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
+        return new cdktn.ImportableResource(scope, importToId, { terraformResourceType: "awscc_groundstation_dataflow_endpoint_group_v2s", importId: importFromId, provider });
+      }
+
+  // ===========
+  // INITIALIZER
+  // ===========
+
+  /**
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/data-sources/groundstation_dataflow_endpoint_group_v2s awscc_groundstation_dataflow_endpoint_group_v2s} Data Source
+  *
+  * @param scope The scope in which to define this construct
+  * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
+  * @param options DataAwsccGroundstationDataflowEndpointGroupV2SConfig = {}
+  */
+  public constructor(scope: Construct, id: string, config: DataAwsccGroundstationDataflowEndpointGroupV2SConfig = {}) {
+    super(scope, id, {
+      terraformResourceType: 'awscc_groundstation_dataflow_endpoint_group_v2s',
+      terraformGeneratorMetadata: {
+        providerName: 'awscc',
+        providerVersion: '1.91.0'
+      },
+      provider: config.provider,
+      dependsOn: config.dependsOn,
+      count: config.count,
+      lifecycle: config.lifecycle,
+      provisioners: config.provisioners,
+      connection: config.connection,
+      forEach: config.forEach
+    });
+  }
+
+  // ==========
+  // ATTRIBUTES
+  // ==========
+
+  // id - computed: true, optional: false, required: false
+  public get id() {
+    return this.getStringAttribute('id');
+  }
+
+  // ids - computed: true, optional: false, required: false
+  public get ids() {
+    return cdktn.Fn.tolist(this.getListAttribute('ids'));
+  }
+
+  // =========
+  // SYNTHESIS
+  // =========
+
+  protected synthesizeAttributes(): { [name: string]: any } {
+    return {
+    };
+  }
+
+  protected synthesizeHclAttributes(): { [name: string]: any } {
+    const attrs = {
+    };
+    return attrs;
+  }
+}
