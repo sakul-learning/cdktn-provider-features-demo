@@ -126,7 +126,7 @@ export class CfncompatProviderFunctions {
   * @param providerLocalName The local name of the provider in required_providers; defaults to the registry short name. Override when the provider is declared under a different local name — aliases do not change the namespace, local names do.
   */
   public static conditionIf(condition: any, valueIfTrue: any, valueIfFalse: any, providerLocalName?: string): any {
-    return cdktn.Token.asString(cdktn.TerraformProviderFunction.invoke(providerLocalName ?? "cfncompat", "condition_if", [condition, valueIfTrue, valueIfFalse])) as any;
+    return cdktn.TerraformProviderFunction.invoke(providerLocalName ?? "cfncompat", "condition_if", [condition, valueIfTrue, valueIfFalse]);
   }
 
   /**
@@ -175,7 +175,7 @@ export class CfncompatProviderFunctions {
   * @param providerLocalName The local name of the provider in required_providers; defaults to the registry short name. Override when the provider is declared under a different local name — aliases do not change the namespace, local names do.
   */
   public static findInMap(mapping: any, topLevelKey: string, secondLevelKey: string, defaultValue: any[], providerLocalName?: string): any {
-    return cdktn.Token.asString(cdktn.TerraformProviderFunction.invoke(providerLocalName ?? "cfncompat", "find_in_map", [mapping, topLevelKey, secondLevelKey, ...defaultValue])) as any;
+    return cdktn.TerraformProviderFunction.invoke(providerLocalName ?? "cfncompat", "find_in_map", [mapping, topLevelKey, secondLevelKey, ...defaultValue]);
   }
 
   /**
@@ -221,7 +221,7 @@ export class CfncompatProviderFunctions {
   * @param providerLocalName The local name of the provider in required_providers; defaults to the registry short name. Override when the provider is declared under a different local name — aliases do not change the namespace, local names do.
   */
   public static select(index: number, objects: any, providerLocalName?: string): any {
-    return cdktn.Token.asString(cdktn.TerraformProviderFunction.invoke(providerLocalName ?? "cfncompat", "select", [index, objects])) as any;
+    return cdktn.TerraformProviderFunction.invoke(providerLocalName ?? "cfncompat", "select", [index, objects]);
   }
 
   /**

@@ -28,7 +28,7 @@ export class AwsProviderFunctions {
   * @param providerLocalName The local name of the provider in required_providers; defaults to the registry short name. Override when the provider is declared under a different local name — aliases do not change the namespace, local names do.
   */
   public static arnParse(arn: string, providerLocalName?: string): any {
-    return cdktn.Token.asString(cdktn.TerraformProviderFunction.invoke(providerLocalName ?? "aws", "arn_parse", [arn])) as any;
+    return cdktn.TerraformProviderFunction.invoke(providerLocalName ?? "aws", "arn_parse", [arn]);
   }
 
   /**

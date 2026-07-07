@@ -324,7 +324,11 @@ export class DataAwsccAppintegrationsDataIntegration extends cdktn.TerraformData
   }
 
   // object_configuration - computed: true, optional: false, required: false
-  private _objectConfiguration = new cdktn.StringListMapMap(this, "object_configuration");
+  private _objectConfiguration = new cdktn.AnyMapMap(this, "object_configuration");
+  /**
+  * Terraform type: `map(map(list(string)))`.
+  * This nesting is deeper than the typed wrapper classes in the core cdktn package; it is exposed as `AnyMapMap` and values below that boundary are untyped tokens.
+  */
   public get objectConfiguration() {
     return this._objectConfiguration;
   }
