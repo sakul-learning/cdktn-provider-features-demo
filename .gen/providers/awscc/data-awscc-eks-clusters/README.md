@@ -1,0 +1,3 @@
+# `data_awscc_eks_clusters`
+
+Refer to the Terraform Registry for docs: [`data_awscc_eks_clusters`](https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/data-sources/eks_clusters).

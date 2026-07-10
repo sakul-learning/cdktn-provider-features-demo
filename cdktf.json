@@ -2,7 +2,9 @@
   "language": "typescript",
   "app": "echo root generation only",
   "terraformProviders": [
-    "aws"
+    "aws",
+    "awscc",
+    "cdktn-io/cfncompat"
   ],
   "targetVersions": {
     "terraform": ">=1.15.0",

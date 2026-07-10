@@ -1,0 +1,3 @@
+# `awscc_ec2_ipam_pool_cidr`
+
+Refer to the Terraform Registry for docs: [`awscc_ec2_ipam_pool_cidr`](https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_ipam_pool_cidr).

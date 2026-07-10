@@ -1,0 +1,15 @@
+{
+  "language": "typescript",
+  "app": "pnpm exec ts-node main.ts",
+  "terraformProviders": [
+    "aws",
+    "awscc",
+    "cdktn-io/cfncompat"
+  ],
+  "targetVersions": {
+    "terraform": ">=1.15.0",
+    "opentofu": ">=1.11.0"
+  },
+  "context": {},
+  "projectId": "d2fb5da2-830f-4c18-9325-e6f074ce27d1"
+}

@@ -1,0 +1,1283 @@
+// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pcs_compute_node_group
+// generated from terraform resource schema
+
+import { Construct } from 'constructs';
+import * as cdktn from 'cdktn';
+
+// Configuration
+
+export interface PcsComputeNodeGroupConfig extends cdktn.TerraformMetaArguments {
+  /**
+  * The ID of the Amazon Machine Image (AMI) that AWS PCS uses to launch instances. If not provided, AWS PCS uses the AMI ID specified in the custom launch template.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pcs_compute_node_group#ami_id PcsComputeNodeGroup#ami_id}
+  */
+  readonly amiId?: string;
+  /**
+  * The ID of the cluster of the compute node group.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pcs_compute_node_group#cluster_id PcsComputeNodeGroup#cluster_id}
+  */
+  readonly clusterId: string;
+  /**
+  * An Amazon EC2 launch template AWS PCS uses to launch compute nodes.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pcs_compute_node_group#custom_launch_template PcsComputeNodeGroup#custom_launch_template}
+  */
+  readonly customLaunchTemplate: PcsComputeNodeGroupCustomLaunchTemplate;
+  /**
+  * The Amazon Resource Name (ARN) of the IAM instance profile used to pass an IAM role when launching EC2 instances. The role contained in your instance profile must have pcs:RegisterComputeNodeGroupInstance permissions attached to provision instances correctly.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pcs_compute_node_group#iam_instance_profile_arn PcsComputeNodeGroup#iam_instance_profile_arn}
+  */
+  readonly iamInstanceProfileArn: string;
+  /**
+  * A list of EC2 instance configurations that AWS PCS can provision in the compute node group.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pcs_compute_node_group#instance_configs PcsComputeNodeGroup#instance_configs}
+  */
+  readonly instanceConfigs: PcsComputeNodeGroupInstanceConfigs[] | cdktn.IResolvable;
+  /**
+  * The name that identifies the compute node group.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pcs_compute_node_group#name PcsComputeNodeGroup#name}
+  */
+  readonly name?: string;
+  /**
+  * Specifies how EC2 instances are purchased on your behalf. AWS PCS supports On-Demand, Spot, Capacity Block, and Interruptible Capacity Reservation instances. For more information, see Instance purchasing options in the Amazon Elastic Compute Cloud User Guide. If you don't provide this option, it defaults to On-Demand.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pcs_compute_node_group#purchase_option PcsComputeNodeGroup#purchase_option}
+  */
+  readonly purchaseOption?: string;
+  /**
+  * Specifies the boundaries of the compute node group auto scaling.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pcs_compute_node_group#scaling_configuration PcsComputeNodeGroup#scaling_configuration}
+  */
+  readonly scalingConfiguration: PcsComputeNodeGroupScalingConfiguration;
+  /**
+  * Additional options related to the Slurm scheduler.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pcs_compute_node_group#slurm_configuration PcsComputeNodeGroup#slurm_configuration}
+  */
+  readonly slurmConfiguration?: PcsComputeNodeGroupSlurmConfiguration;
+  /**
+  * Additional configuration when you specify SPOT as the purchase option.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pcs_compute_node_group#spot_options PcsComputeNodeGroup#spot_options}
+  */
+  readonly spotOptions?: PcsComputeNodeGroupSpotOptions;
+  /**
+  * The list of subnet IDs where instances are provisioned by the compute node group. The subnets must be in the same VPC as the cluster.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pcs_compute_node_group#subnet_ids PcsComputeNodeGroup#subnet_ids}
+  */
+  readonly subnetIds: string[];
+  /**
+  * 1 or more tags added to the resource. Each tag consists of a tag key and tag value. The tag value is optional and can be an empty string.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pcs_compute_node_group#tags PcsComputeNodeGroup#tags}
+  */
+  readonly tags?: { [key: string]: string };
+}
+export interface PcsComputeNodeGroupCustomLaunchTemplate {
+  /**
+  * The ID of the EC2 launch template to use to provision instances.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pcs_compute_node_group#template_id PcsComputeNodeGroup#template_id}
+  */
+  readonly templateId?: string;
+  /**
+  * The version of the EC2 launch template to use to provision instances.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pcs_compute_node_group#version PcsComputeNodeGroup#version}
+  */
+  readonly version: string;
+}
+
+export function pcsComputeNodeGroupCustomLaunchTemplateToTerraform(struct?: PcsComputeNodeGroupCustomLaunchTemplate | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    template_id: cdktn.stringToTerraform(struct!.templateId),
+    version: cdktn.stringToTerraform(struct!.version),
+  }
+}
+
+
+export function pcsComputeNodeGroupCustomLaunchTemplateToHclTerraform(struct?: PcsComputeNodeGroupCustomLaunchTemplate | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    template_id: {
+      value: cdktn.stringToHclTerraform(struct!.templateId),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    version: {
+      value: cdktn.stringToHclTerraform(struct!.version),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class PcsComputeNodeGroupCustomLaunchTemplateOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktn.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): PcsComputeNodeGroupCustomLaunchTemplate | cdktn.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._templateId !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.templateId = this._templateId;
+    }
+    if (this._version !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.version = this._version;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: PcsComputeNodeGroupCustomLaunchTemplate | cdktn.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._templateId = undefined;
+      this._version = undefined;
+    }
+    else if (cdktn.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._templateId = value.templateId;
+      this._version = value.version;
+    }
+  }
+
+  // template_id - computed: true, optional: true, required: false
+  private _templateId?: string; 
+  public get templateId() {
+    return this.getStringAttribute('template_id');
+  }
+  public set templateId(value: string) {
+    this._templateId = value;
+  }
+  public resetTemplateId() {
+    this._templateId = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get templateIdInput() {
+    return this._templateId;
+  }
+
+  // version - computed: false, optional: false, required: true
+  private _version?: string; 
+  public get version() {
+    return this.getStringAttribute('version');
+  }
+  public set version(value: string) {
+    this._version = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get versionInput() {
+    return this._version;
+  }
+}
+export interface PcsComputeNodeGroupErrorInfo {
+}
+
+export function pcsComputeNodeGroupErrorInfoToTerraform(struct?: PcsComputeNodeGroupErrorInfo): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function pcsComputeNodeGroupErrorInfoToHclTerraform(struct?: PcsComputeNodeGroupErrorInfo): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class PcsComputeNodeGroupErrorInfoOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): PcsComputeNodeGroupErrorInfo | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: PcsComputeNodeGroupErrorInfo | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // code - computed: true, optional: false, required: false
+  public get code() {
+    return this.getStringAttribute('code');
+  }
+
+  // message - computed: true, optional: false, required: false
+  public get message() {
+    return this.getStringAttribute('message');
+  }
+}
+
+export class PcsComputeNodeGroupErrorInfoList extends cdktn.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet);
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): PcsComputeNodeGroupErrorInfoOutputReference {
+    return new PcsComputeNodeGroupErrorInfoOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface PcsComputeNodeGroupInstanceConfigs {
+  /**
+  * The EC2 instance type that AWS PCS can provision in the compute node group.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pcs_compute_node_group#instance_type PcsComputeNodeGroup#instance_type}
+  */
+  readonly instanceType?: string;
+}
+
+export function pcsComputeNodeGroupInstanceConfigsToTerraform(struct?: PcsComputeNodeGroupInstanceConfigs | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    instance_type: cdktn.stringToTerraform(struct!.instanceType),
+  }
+}
+
+
+export function pcsComputeNodeGroupInstanceConfigsToHclTerraform(struct?: PcsComputeNodeGroupInstanceConfigs | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    instance_type: {
+      value: cdktn.stringToHclTerraform(struct!.instanceType),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class PcsComputeNodeGroupInstanceConfigsOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktn.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): PcsComputeNodeGroupInstanceConfigs | cdktn.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._instanceType !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.instanceType = this._instanceType;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: PcsComputeNodeGroupInstanceConfigs | cdktn.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._instanceType = undefined;
+    }
+    else if (cdktn.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._instanceType = value.instanceType;
+    }
+  }
+
+  // instance_type - computed: true, optional: true, required: false
+  private _instanceType?: string; 
+  public get instanceType() {
+    return this.getStringAttribute('instance_type');
+  }
+  public set instanceType(value: string) {
+    this._instanceType = value;
+  }
+  public resetInstanceType() {
+    this._instanceType = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get instanceTypeInput() {
+    return this._instanceType;
+  }
+}
+
+export class PcsComputeNodeGroupInstanceConfigsList extends cdktn.ComplexList {
+  public internalValue? : PcsComputeNodeGroupInstanceConfigs[] | cdktn.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet);
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): PcsComputeNodeGroupInstanceConfigsOutputReference {
+    return new PcsComputeNodeGroupInstanceConfigsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface PcsComputeNodeGroupScalingConfiguration {
+  /**
+  * The upper bound of the number of instances allowed in the compute fleet.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pcs_compute_node_group#max_instance_count PcsComputeNodeGroup#max_instance_count}
+  */
+  readonly maxInstanceCount: number;
+  /**
+  * The lower bound of the number of instances allowed in the compute fleet.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pcs_compute_node_group#min_instance_count PcsComputeNodeGroup#min_instance_count}
+  */
+  readonly minInstanceCount: number;
+}
+
+export function pcsComputeNodeGroupScalingConfigurationToTerraform(struct?: PcsComputeNodeGroupScalingConfiguration | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    max_instance_count: cdktn.numberToTerraform(struct!.maxInstanceCount),
+    min_instance_count: cdktn.numberToTerraform(struct!.minInstanceCount),
+  }
+}
+
+
+export function pcsComputeNodeGroupScalingConfigurationToHclTerraform(struct?: PcsComputeNodeGroupScalingConfiguration | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    max_instance_count: {
+      value: cdktn.numberToHclTerraform(struct!.maxInstanceCount),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    min_instance_count: {
+      value: cdktn.numberToHclTerraform(struct!.minInstanceCount),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class PcsComputeNodeGroupScalingConfigurationOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktn.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): PcsComputeNodeGroupScalingConfiguration | cdktn.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._maxInstanceCount !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.maxInstanceCount = this._maxInstanceCount;
+    }
+    if (this._minInstanceCount !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.minInstanceCount = this._minInstanceCount;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: PcsComputeNodeGroupScalingConfiguration | cdktn.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._maxInstanceCount = undefined;
+      this._minInstanceCount = undefined;
+    }
+    else if (cdktn.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._maxInstanceCount = value.maxInstanceCount;
+      this._minInstanceCount = value.minInstanceCount;
+    }
+  }
+
+  // max_instance_count - computed: false, optional: false, required: true
+  private _maxInstanceCount?: number; 
+  public get maxInstanceCount() {
+    return this.getNumberAttribute('max_instance_count');
+  }
+  public set maxInstanceCount(value: number) {
+    this._maxInstanceCount = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get maxInstanceCountInput() {
+    return this._maxInstanceCount;
+  }
+
+  // min_instance_count - computed: false, optional: false, required: true
+  private _minInstanceCount?: number; 
+  public get minInstanceCount() {
+    return this.getNumberAttribute('min_instance_count');
+  }
+  public set minInstanceCount(value: number) {
+    this._minInstanceCount = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get minInstanceCountInput() {
+    return this._minInstanceCount;
+  }
+}
+export interface PcsComputeNodeGroupSlurmConfigurationSlurmCustomSettings {
+  /**
+  * AWS PCS supports configuration of the following Slurm parameters for compute node groups: Weight and RealMemory.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pcs_compute_node_group#parameter_name PcsComputeNodeGroup#parameter_name}
+  */
+  readonly parameterName?: string;
+  /**
+  * The value for the configured Slurm setting.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pcs_compute_node_group#parameter_value PcsComputeNodeGroup#parameter_value}
+  */
+  readonly parameterValue?: string;
+}
+
+export function pcsComputeNodeGroupSlurmConfigurationSlurmCustomSettingsToTerraform(struct?: PcsComputeNodeGroupSlurmConfigurationSlurmCustomSettings | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    parameter_name: cdktn.stringToTerraform(struct!.parameterName),
+    parameter_value: cdktn.stringToTerraform(struct!.parameterValue),
+  }
+}
+
+
+export function pcsComputeNodeGroupSlurmConfigurationSlurmCustomSettingsToHclTerraform(struct?: PcsComputeNodeGroupSlurmConfigurationSlurmCustomSettings | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    parameter_name: {
+      value: cdktn.stringToHclTerraform(struct!.parameterName),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    parameter_value: {
+      value: cdktn.stringToHclTerraform(struct!.parameterValue),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class PcsComputeNodeGroupSlurmConfigurationSlurmCustomSettingsOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktn.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): PcsComputeNodeGroupSlurmConfigurationSlurmCustomSettings | cdktn.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._parameterName !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.parameterName = this._parameterName;
+    }
+    if (this._parameterValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.parameterValue = this._parameterValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: PcsComputeNodeGroupSlurmConfigurationSlurmCustomSettings | cdktn.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._parameterName = undefined;
+      this._parameterValue = undefined;
+    }
+    else if (cdktn.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._parameterName = value.parameterName;
+      this._parameterValue = value.parameterValue;
+    }
+  }
+
+  // parameter_name - computed: true, optional: true, required: false
+  private _parameterName?: string; 
+  public get parameterName() {
+    return this.getStringAttribute('parameter_name');
+  }
+  public set parameterName(value: string) {
+    this._parameterName = value;
+  }
+  public resetParameterName() {
+    this._parameterName = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get parameterNameInput() {
+    return this._parameterName;
+  }
+
+  // parameter_value - computed: true, optional: true, required: false
+  private _parameterValue?: string; 
+  public get parameterValue() {
+    return this.getStringAttribute('parameter_value');
+  }
+  public set parameterValue(value: string) {
+    this._parameterValue = value;
+  }
+  public resetParameterValue() {
+    this._parameterValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get parameterValueInput() {
+    return this._parameterValue;
+  }
+}
+
+export class PcsComputeNodeGroupSlurmConfigurationSlurmCustomSettingsList extends cdktn.ComplexList {
+  public internalValue? : PcsComputeNodeGroupSlurmConfigurationSlurmCustomSettings[] | cdktn.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet);
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): PcsComputeNodeGroupSlurmConfigurationSlurmCustomSettingsOutputReference {
+    return new PcsComputeNodeGroupSlurmConfigurationSlurmCustomSettingsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface PcsComputeNodeGroupSlurmConfiguration {
+  /**
+  * The time before an idle node is scaled down.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pcs_compute_node_group#scale_down_idle_time_in_seconds PcsComputeNodeGroup#scale_down_idle_time_in_seconds}
+  */
+  readonly scaleDownIdleTimeInSeconds?: number;
+  /**
+  * Additional Slurm-specific configuration that directly maps to Slurm settings.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pcs_compute_node_group#slurm_custom_settings PcsComputeNodeGroup#slurm_custom_settings}
+  */
+  readonly slurmCustomSettings?: PcsComputeNodeGroupSlurmConfigurationSlurmCustomSettings[] | cdktn.IResolvable;
+}
+
+export function pcsComputeNodeGroupSlurmConfigurationToTerraform(struct?: PcsComputeNodeGroupSlurmConfiguration | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    scale_down_idle_time_in_seconds: cdktn.numberToTerraform(struct!.scaleDownIdleTimeInSeconds),
+    slurm_custom_settings: cdktn.listMapper(pcsComputeNodeGroupSlurmConfigurationSlurmCustomSettingsToTerraform, false)(struct!.slurmCustomSettings),
+  }
+}
+
+
+export function pcsComputeNodeGroupSlurmConfigurationToHclTerraform(struct?: PcsComputeNodeGroupSlurmConfiguration | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    scale_down_idle_time_in_seconds: {
+      value: cdktn.numberToHclTerraform(struct!.scaleDownIdleTimeInSeconds),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    slurm_custom_settings: {
+      value: cdktn.listMapperHcl(pcsComputeNodeGroupSlurmConfigurationSlurmCustomSettingsToHclTerraform, false)(struct!.slurmCustomSettings),
+      isBlock: true,
+      type: "list",
+      storageClassType: "PcsComputeNodeGroupSlurmConfigurationSlurmCustomSettingsList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class PcsComputeNodeGroupSlurmConfigurationOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktn.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): PcsComputeNodeGroupSlurmConfiguration | cdktn.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._scaleDownIdleTimeInSeconds !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.scaleDownIdleTimeInSeconds = this._scaleDownIdleTimeInSeconds;
+    }
+    if (this._slurmCustomSettings?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.slurmCustomSettings = this._slurmCustomSettings?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: PcsComputeNodeGroupSlurmConfiguration | cdktn.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._scaleDownIdleTimeInSeconds = undefined;
+      this._slurmCustomSettings.internalValue = undefined;
+    }
+    else if (cdktn.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._scaleDownIdleTimeInSeconds = value.scaleDownIdleTimeInSeconds;
+      this._slurmCustomSettings.internalValue = value.slurmCustomSettings;
+    }
+  }
+
+  // scale_down_idle_time_in_seconds - computed: true, optional: true, required: false
+  private _scaleDownIdleTimeInSeconds?: number; 
+  public get scaleDownIdleTimeInSeconds() {
+    return this.getNumberAttribute('scale_down_idle_time_in_seconds');
+  }
+  public set scaleDownIdleTimeInSeconds(value: number) {
+    this._scaleDownIdleTimeInSeconds = value;
+  }
+  public resetScaleDownIdleTimeInSeconds() {
+    this._scaleDownIdleTimeInSeconds = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get scaleDownIdleTimeInSecondsInput() {
+    return this._scaleDownIdleTimeInSeconds;
+  }
+
+  // slurm_custom_settings - computed: true, optional: true, required: false
+  private _slurmCustomSettings = new PcsComputeNodeGroupSlurmConfigurationSlurmCustomSettingsList(this, "slurm_custom_settings", false);
+  public get slurmCustomSettings() {
+    return this._slurmCustomSettings;
+  }
+  public putSlurmCustomSettings(value: PcsComputeNodeGroupSlurmConfigurationSlurmCustomSettings[] | cdktn.IResolvable) {
+    this._slurmCustomSettings.internalValue = value;
+  }
+  public resetSlurmCustomSettings() {
+    this._slurmCustomSettings.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get slurmCustomSettingsInput() {
+    return this._slurmCustomSettings.internalValue;
+  }
+}
+export interface PcsComputeNodeGroupSpotOptions {
+  /**
+  * The Amazon EC2 allocation strategy AWS PCS uses to provision EC2 instances. AWS PCS supports lowest price, capacity optimized, and price capacity optimized. If you don't provide this option, it defaults to price capacity optimized.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pcs_compute_node_group#allocation_strategy PcsComputeNodeGroup#allocation_strategy}
+  */
+  readonly allocationStrategy?: string;
+}
+
+export function pcsComputeNodeGroupSpotOptionsToTerraform(struct?: PcsComputeNodeGroupSpotOptions | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    allocation_strategy: cdktn.stringToTerraform(struct!.allocationStrategy),
+  }
+}
+
+
+export function pcsComputeNodeGroupSpotOptionsToHclTerraform(struct?: PcsComputeNodeGroupSpotOptions | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    allocation_strategy: {
+      value: cdktn.stringToHclTerraform(struct!.allocationStrategy),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class PcsComputeNodeGroupSpotOptionsOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktn.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): PcsComputeNodeGroupSpotOptions | cdktn.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._allocationStrategy !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.allocationStrategy = this._allocationStrategy;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: PcsComputeNodeGroupSpotOptions | cdktn.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._allocationStrategy = undefined;
+    }
+    else if (cdktn.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._allocationStrategy = value.allocationStrategy;
+    }
+  }
+
+  // allocation_strategy - computed: true, optional: true, required: false
+  private _allocationStrategy?: string; 
+  public get allocationStrategy() {
+    return this.getStringAttribute('allocation_strategy');
+  }
+  public set allocationStrategy(value: string) {
+    this._allocationStrategy = value;
+  }
+  public resetAllocationStrategy() {
+    this._allocationStrategy = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get allocationStrategyInput() {
+    return this._allocationStrategy;
+  }
+}
+
+/**
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pcs_compute_node_group awscc_pcs_compute_node_group}
+*/
+export class PcsComputeNodeGroup extends cdktn.TerraformResource {
+
+  // =================
+  // STATIC PROPERTIES
+  // =================
+  public static readonly tfResourceType = "awscc_pcs_compute_node_group";
+
+  // ==============
+  // STATIC Methods
+  // ==============
+  /**
+  * Generates CDKTN code for importing a PcsComputeNodeGroup resource upon running "cdktn plan <stack-name>"
+  * @param scope The scope in which to define this construct
+  * @param importToId The construct id used in the generated config for the PcsComputeNodeGroup to import
+  * @param importFromId The id of the existing PcsComputeNodeGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pcs_compute_node_group#import import section} in the documentation of this resource for the id to use
+  * @param provider? Optional instance of the provider where the PcsComputeNodeGroup to import is found
+  */
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
+        return new cdktn.ImportableResource(scope, importToId, { terraformResourceType: "awscc_pcs_compute_node_group", importId: importFromId, provider });
+      }
+
+  // ===========
+  // INITIALIZER
+  // ===========
+
+  /**
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pcs_compute_node_group awscc_pcs_compute_node_group} Resource
+  *
+  * @param scope The scope in which to define this construct
+  * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
+  * @param options PcsComputeNodeGroupConfig
+  */
+  public constructor(scope: Construct, id: string, config: PcsComputeNodeGroupConfig) {
+    super(scope, id, {
+      terraformResourceType: 'awscc_pcs_compute_node_group',
+      terraformGeneratorMetadata: {
+        providerName: 'awscc',
+        providerVersion: '1.91.0'
+      },
+      provider: config.provider,
+      dependsOn: config.dependsOn,
+      count: config.count,
+      lifecycle: config.lifecycle,
+      provisioners: config.provisioners,
+      connection: config.connection,
+      forEach: config.forEach
+    });
+    this._amiId = config.amiId;
+    this._clusterId = config.clusterId;
+    this._customLaunchTemplate.internalValue = config.customLaunchTemplate;
+    this._iamInstanceProfileArn = config.iamInstanceProfileArn;
+    this._instanceConfigs.internalValue = config.instanceConfigs;
+    this._name = config.name;
+    this._purchaseOption = config.purchaseOption;
+    this._scalingConfiguration.internalValue = config.scalingConfiguration;
+    this._slurmConfiguration.internalValue = config.slurmConfiguration;
+    this._spotOptions.internalValue = config.spotOptions;
+    this._subnetIds = config.subnetIds;
+    this._tags = config.tags;
+  }
+
+  // ==========
+  // ATTRIBUTES
+  // ==========
+
+  // ami_id - computed: true, optional: true, required: false
+  private _amiId?: string; 
+  public get amiId() {
+    return this.getStringAttribute('ami_id');
+  }
+  public set amiId(value: string) {
+    this._amiId = value;
+  }
+  public resetAmiId() {
+    this._amiId = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get amiIdInput() {
+    return this._amiId;
+  }
+
+  // arn - computed: true, optional: false, required: false
+  public get arn() {
+    return this.getStringAttribute('arn');
+  }
+
+  // cluster_id - computed: false, optional: false, required: true
+  private _clusterId?: string; 
+  public get clusterId() {
+    return this.getStringAttribute('cluster_id');
+  }
+  public set clusterId(value: string) {
+    this._clusterId = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get clusterIdInput() {
+    return this._clusterId;
+  }
+
+  // compute_node_group_id - computed: true, optional: false, required: false
+  public get computeNodeGroupId() {
+    return this.getStringAttribute('compute_node_group_id');
+  }
+
+  // custom_launch_template - computed: false, optional: false, required: true
+  private _customLaunchTemplate = new PcsComputeNodeGroupCustomLaunchTemplateOutputReference(this, "custom_launch_template");
+  public get customLaunchTemplate() {
+    return this._customLaunchTemplate;
+  }
+  public putCustomLaunchTemplate(value: PcsComputeNodeGroupCustomLaunchTemplate) {
+    this._customLaunchTemplate.internalValue = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get customLaunchTemplateInput() {
+    return this._customLaunchTemplate.internalValue;
+  }
+
+  // error_info - computed: true, optional: false, required: false
+  private _errorInfo = new PcsComputeNodeGroupErrorInfoList(this, "error_info", false);
+  public get errorInfo() {
+    return this._errorInfo;
+  }
+
+  // iam_instance_profile_arn - computed: false, optional: false, required: true
+  private _iamInstanceProfileArn?: string; 
+  public get iamInstanceProfileArn() {
+    return this.getStringAttribute('iam_instance_profile_arn');
+  }
+  public set iamInstanceProfileArn(value: string) {
+    this._iamInstanceProfileArn = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get iamInstanceProfileArnInput() {
+    return this._iamInstanceProfileArn;
+  }
+
+  // id - computed: true, optional: false, required: false
+  public get id() {
+    return this.getStringAttribute('id');
+  }
+
+  // instance_configs - computed: false, optional: false, required: true
+  private _instanceConfigs = new PcsComputeNodeGroupInstanceConfigsList(this, "instance_configs", false);
+  public get instanceConfigs() {
+    return this._instanceConfigs;
+  }
+  public putInstanceConfigs(value: PcsComputeNodeGroupInstanceConfigs[] | cdktn.IResolvable) {
+    this._instanceConfigs.internalValue = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get instanceConfigsInput() {
+    return this._instanceConfigs.internalValue;
+  }
+
+  // name - computed: true, optional: true, required: false
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  public resetName() {
+    this._name = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+
+  // purchase_option - computed: true, optional: true, required: false
+  private _purchaseOption?: string; 
+  public get purchaseOption() {
+    return this.getStringAttribute('purchase_option');
+  }
+  public set purchaseOption(value: string) {
+    this._purchaseOption = value;
+  }
+  public resetPurchaseOption() {
+    this._purchaseOption = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get purchaseOptionInput() {
+    return this._purchaseOption;
+  }
+
+  // scaling_configuration - computed: false, optional: false, required: true
+  private _scalingConfiguration = new PcsComputeNodeGroupScalingConfigurationOutputReference(this, "scaling_configuration");
+  public get scalingConfiguration() {
+    return this._scalingConfiguration;
+  }
+  public putScalingConfiguration(value: PcsComputeNodeGroupScalingConfiguration) {
+    this._scalingConfiguration.internalValue = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get scalingConfigurationInput() {
+    return this._scalingConfiguration.internalValue;
+  }
+
+  // slurm_configuration - computed: true, optional: true, required: false
+  private _slurmConfiguration = new PcsComputeNodeGroupSlurmConfigurationOutputReference(this, "slurm_configuration");
+  public get slurmConfiguration() {
+    return this._slurmConfiguration;
+  }
+  public putSlurmConfiguration(value: PcsComputeNodeGroupSlurmConfiguration) {
+    this._slurmConfiguration.internalValue = value;
+  }
+  public resetSlurmConfiguration() {
+    this._slurmConfiguration.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get slurmConfigurationInput() {
+    return this._slurmConfiguration.internalValue;
+  }
+
+  // spot_options - computed: true, optional: true, required: false
+  private _spotOptions = new PcsComputeNodeGroupSpotOptionsOutputReference(this, "spot_options");
+  public get spotOptions() {
+    return this._spotOptions;
+  }
+  public putSpotOptions(value: PcsComputeNodeGroupSpotOptions) {
+    this._spotOptions.internalValue = value;
+  }
+  public resetSpotOptions() {
+    this._spotOptions.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get spotOptionsInput() {
+    return this._spotOptions.internalValue;
+  }
+
+  // status - computed: true, optional: false, required: false
+  public get status() {
+    return this.getStringAttribute('status');
+  }
+
+  // subnet_ids - computed: false, optional: false, required: true
+  private _subnetIds?: string[]; 
+  public get subnetIds() {
+    return this.getListAttribute('subnet_ids');
+  }
+  public set subnetIds(value: string[]) {
+    this._subnetIds = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get subnetIdsInput() {
+    return this._subnetIds;
+  }
+
+  // tags - computed: true, optional: true, required: false
+  private _tags?: { [key: string]: string }; 
+  public get tags() {
+    return this.getStringMapAttribute('tags');
+  }
+  public set tags(value: { [key: string]: string }) {
+    this._tags = value;
+  }
+  public resetTags() {
+    this._tags = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tagsInput() {
+    return this._tags;
+  }
+
+  // =========
+  // SYNTHESIS
+  // =========
+
+  protected synthesizeAttributes(): { [name: string]: any } {
+    return {
+      ami_id: cdktn.stringToTerraform(this._amiId),
+      cluster_id: cdktn.stringToTerraform(this._clusterId),
+      custom_launch_template: pcsComputeNodeGroupCustomLaunchTemplateToTerraform(this._customLaunchTemplate.internalValue),
+      iam_instance_profile_arn: cdktn.stringToTerraform(this._iamInstanceProfileArn),
+      instance_configs: cdktn.listMapper(pcsComputeNodeGroupInstanceConfigsToTerraform, false)(this._instanceConfigs.internalValue),
+      name: cdktn.stringToTerraform(this._name),
+      purchase_option: cdktn.stringToTerraform(this._purchaseOption),
+      scaling_configuration: pcsComputeNodeGroupScalingConfigurationToTerraform(this._scalingConfiguration.internalValue),
+      slurm_configuration: pcsComputeNodeGroupSlurmConfigurationToTerraform(this._slurmConfiguration.internalValue),
+      spot_options: pcsComputeNodeGroupSpotOptionsToTerraform(this._spotOptions.internalValue),
+      subnet_ids: cdktn.listMapper(cdktn.stringToTerraform, false)(this._subnetIds),
+      tags: cdktn.hashMapper(cdktn.stringToTerraform)(this._tags),
+    };
+  }
+
+  protected synthesizeHclAttributes(): { [name: string]: any } {
+    const attrs = {
+      ami_id: {
+        value: cdktn.stringToHclTerraform(this._amiId),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      cluster_id: {
+        value: cdktn.stringToHclTerraform(this._clusterId),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      custom_launch_template: {
+        value: pcsComputeNodeGroupCustomLaunchTemplateToHclTerraform(this._customLaunchTemplate.internalValue),
+        isBlock: true,
+        type: "struct",
+        storageClassType: "PcsComputeNodeGroupCustomLaunchTemplate",
+      },
+      iam_instance_profile_arn: {
+        value: cdktn.stringToHclTerraform(this._iamInstanceProfileArn),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      instance_configs: {
+        value: cdktn.listMapperHcl(pcsComputeNodeGroupInstanceConfigsToHclTerraform, false)(this._instanceConfigs.internalValue),
+        isBlock: true,
+        type: "list",
+        storageClassType: "PcsComputeNodeGroupInstanceConfigsList",
+      },
+      name: {
+        value: cdktn.stringToHclTerraform(this._name),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      purchase_option: {
+        value: cdktn.stringToHclTerraform(this._purchaseOption),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      scaling_configuration: {
+        value: pcsComputeNodeGroupScalingConfigurationToHclTerraform(this._scalingConfiguration.internalValue),
+        isBlock: true,
+        type: "struct",
+        storageClassType: "PcsComputeNodeGroupScalingConfiguration",
+      },
+      slurm_configuration: {
+        value: pcsComputeNodeGroupSlurmConfigurationToHclTerraform(this._slurmConfiguration.internalValue),
+        isBlock: true,
+        type: "struct",
+        storageClassType: "PcsComputeNodeGroupSlurmConfiguration",
+      },
+      spot_options: {
+        value: pcsComputeNodeGroupSpotOptionsToHclTerraform(this._spotOptions.internalValue),
+        isBlock: true,
+        type: "struct",
+        storageClassType: "PcsComputeNodeGroupSpotOptions",
+      },
+      subnet_ids: {
+        value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(this._subnetIds),
+        isBlock: false,
+        type: "list",
+        storageClassType: "stringList",
+      },
+      tags: {
+        value: cdktn.hashMapperHcl(cdktn.stringToHclTerraform)(this._tags),
+        isBlock: false,
+        type: "map",
+        storageClassType: "stringMap",
+      },
+    };
+
+    // remove undefined attributes
+    return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined ))
+  }
+}
